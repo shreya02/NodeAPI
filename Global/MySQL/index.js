@@ -4,7 +4,7 @@ const Sequelize=require('sequelize')
 global.connectedEmitter=new eventEmitter()
 global.Op=Sequelize.Op
 
-global.sequelizeCredentials = new Sequelize('EmployeeDatabase', 'shreyadb','shreyadbs', {
+global.sequelizeCredentials = new Sequelize('DBMS', 'shreyadb','shreyadbs', {
     host: 'localhost',
     dialect: 'mysql',
     pool: {
@@ -16,7 +16,6 @@ global.sequelizeCredentials = new Sequelize('EmployeeDatabase', 'shreyadb','shre
     operatorsAliases: false
   })
 
-  
   
 let seq= [sequelizeCredentials]
 

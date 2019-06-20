@@ -8,6 +8,8 @@
              let data= await readWork.findAll()
             //console.log("All Employees", JSON.stringify(data));
              return data
+
+             
      }
       catch(e) 
     {
