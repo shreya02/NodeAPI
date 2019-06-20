@@ -1,10 +1,5 @@
 const aws = require('aws-sdk')
 
-aws.config.update({
-    "accessKeyId": "AKIAJNSIJIJWIO64AFXA",
-    "secretAccessKey": "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",
-    "region": "us-east-1"
-});
 
 module.exports = ()=> {
     return (async() => {

@@ -27,3 +27,5 @@ module.exports= function(stu) {
 
 
 // let data= await readWork.find()
+
+//http://localhost:5000/v1/std/studentapi/?name=yash

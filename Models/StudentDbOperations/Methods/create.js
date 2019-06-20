@@ -18,3 +18,4 @@ module.exports= function(stu) {
         }     
     })()
 }
+//http://localhost:5000/v1/std/studentapi

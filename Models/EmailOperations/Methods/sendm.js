@@ -1,10 +1,5 @@
 const aws = require('aws-sdk')
 
-aws.config.update({
-    "accessKeyId": "AKIAJNSIJIJWIO64AFXA",
-    "secretAccessKey": "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",
-    "region": "us-east-1"
-});
 
 module.exports=()=>
 {
@@ -16,7 +11,7 @@ module.exports=()=>
                 var param = {
                 Message: 'Hello User',
                 MessageStructure: 'string',
-                PhoneNumber: '+917665213226'
+                PhoneNumber: '+913226'
                 };
             
                 sns.publish(param,function(err, data) {
